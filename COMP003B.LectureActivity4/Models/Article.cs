@@ -7,7 +7,7 @@ namespace COMP003B.LectureActivity4.Models
 
         [Required]
         [StringLength(100)]
-        public string Ttile {  get; set; }
+        public string Title {  get; set; }
 
         [Required]
         [StringLength(300)]
