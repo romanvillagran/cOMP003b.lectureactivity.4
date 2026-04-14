@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using COMP003B.LectureActivity4.Models;
 
-namespace COMP003B.LectureActivity4.Models.Controllers
+namespace COMP003B.LectureActivity4.Controllers
 {
-    public class ArticleController : Controller
+    public class ArticlesController : Controller
     {
         public IActionResult Index()
         {
